@@ -1,0 +1,21 @@
+This is my old vim configuration, parts of it date back to 2004 when I first switched from pico to vim on FreeBSD 5.2.1-RELEASE. 
+I fiddled and futzed with it constantly, when I became a developer in 2007, there were A LOT of changes to be made, and I created
+my dotfiles/ repo including the cobbled mess of a .vimrc file with the rest of my .zshrc, .screenrc and other assorted config
+files I needed at the time. The fiddling never stopped to any of these files, and eventually I broke up my vim and zsh files into
+a module format
+
+01_globals.vim  
+02_colorscheme.vim  
+03_keybindings.vim  
+04_functions.vim  
+05_buffers.vim  
+06_statusline.vim
+
+and used the .d naming scheme .vim.d/ with .vimrc becoming a forloop. Anyways, at the end of 2017 I changed jobs and no longer
+write code like I used to and over the years these plugins have either stopped working, or I haven't used in years and recently
+I made a lifestyle change and switched to Helix as my primary editor. While I still use vim, I no longer need 4GBs of plugins and 
+keystrokes many of which I've long forgotten. So I am storing them here, for posterity's sake. 
+
+This repo is available to do anything you want to with it, I didn't bother putting a license on it as some plugins use GPL, 
+some maybe an Apache or MIT license and I don't care enough to dig through so this repo is released under the terms of the 
+license on each plugin, if applicable, it's up to you to look and find out how much you care.
